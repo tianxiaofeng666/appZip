@@ -157,6 +157,34 @@ git 上传超过100M文件 处理办法： 需要借助git-fls
 还有问题，参考：https://blog.csdn.net/u012390519/article/details/79441706
 如果有大文件，clone的时候：git （lfs可以不要） clone ***.git 
 
+需要配置环境变量的有：
+    1. java
+       JAVA_HOME        C:\Program Files\Java\jdk1.8
+       path:            %JAVA_HOME%\bin    %JAVA_HOME%\jre\bin
+       
+    2. maven
+       MAVEN_HOME       D:\apache-maven-3.6.1
+       path:            %MAVEN_HOME%\bin
+       
+    3. zookeeper
+       ZOOKEEPER_HOME   D:\zookeeper\zookeeper-3.4.14
+       path:            %ZOOKEEPER_HOME%\bin
+       
+    4. rabbitmq
+       RABBITMQ_SERVER   D:\software\rabbitmq_server-3.8.6
+       path:             %RABBITMQ_SERVER%\sbin
+       
+    5. erlang
+       ERLANG_HOME      D:\software\erl-23.0
+       path:            %ERLANG_HOME%\bin
+
+    6. git
+       path:            C:\Program Files\Git\cmd
+
+    7. svn
+       path:            C:\Program Files (x86)\TortoiseSVN\bin
+       
+       
 kafka学习资料：
      https://www.toutiao.com/i6766356279280534024/
      https://colobu.com/2014/08/06/kafka-quickstart/
